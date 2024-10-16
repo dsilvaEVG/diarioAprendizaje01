@@ -1,0 +1,45 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #0a0a4f;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+  }
+a{
+  color: white;
+}
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    color: #818181;
+    
+  }
+  .portada{
+    margin:auto;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  p{
+    font-size: 16px;
+    padding-right: 160px;
+    text-align: justify;
+  }
